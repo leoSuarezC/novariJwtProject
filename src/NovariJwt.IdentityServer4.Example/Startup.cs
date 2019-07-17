@@ -15,7 +15,9 @@ namespace NovariJwt.IdentityServer4.Example
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            const string connectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;database=Test.IdentityServer4.EntityFramework2;trusted_connection=yes;";
+            //const string connectionString = @"Data Source=;database=Test.IdentityServer4.EntityFramework2;trusted_connection=yes;";
+            const string connectionString =
+             @"Data Source=192.168.1.37,1433;database=Test.IdentityServer4.EntityFramework2;User ID=test;Password=test123;MultipleActiveResultSets=true;";           
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
             services.AddMvc();
