@@ -1,13 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F61FE42-8DDD-41A8-8512-0952CB4A3C11}"
+	ProjectSection(SolutionItems) = preProject
+		src\NovariJwt.IdentityServer4.Example\Dockerfile = src\NovariJwt.IdentityServer4.Example\Dockerfile
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovariJwt.IdentityServer4.Example", "src\NovariJwt.IdentityServer4.Example\NovariJwt.IdentityServer4.Example.csproj", "{23EDCA77-C09E-490E-A225-0ED4490C31D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NovariJwt.IdentityServer4.Example", "src\NovariJwt.IdentityServer4.Example\NovariJwt.IdentityServer4.Example.csproj", "{23EDCA77-C09E-490E-A225-0ED4490C31D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenIdConnectClient", "src\OpenIdConnectClient\OpenIdConnectClient.csproj", "{28D0F7A1-7CE5-4FC4-A435-8A14AFB481D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenIdConnectClient", "src\OpenIdConnectClient\OpenIdConnectClient.csproj", "{28D0F7A1-7CE5-4FC4-A435-8A14AFB481D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
